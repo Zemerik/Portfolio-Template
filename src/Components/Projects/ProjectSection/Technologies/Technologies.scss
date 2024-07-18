@@ -1,0 +1,20 @@
+.technologies-list {
+  text-align: left;
+  .technology-item {
+    display: inline-block;
+    background-color: #757576;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .technologies-list {
+    text-align: center;
+  }
+}

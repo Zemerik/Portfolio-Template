@@ -1,0 +1,16 @@
+.flex-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.3rem;
+
+  @media screen and (device-width: 1280px) and (device-height: 800px) {
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+
+  @media screen and (max-width: 1169px) {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,29 @@
+.scroll-nav {
+  position: fixed;
+  top: -100px; /* Set the initial position above the viewport */
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background-color: #1b1c1e;
+  padding: 10px;
+  transition: top 0.3s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.scroll-nav.visible {
+  top: 0;
+}
+
+.dropdown {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 376px) {
+  .scroll-nav {
+    // width: 100%;
+  }
+}

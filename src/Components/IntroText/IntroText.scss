@@ -1,0 +1,117 @@
+.intro-text {
+  font-family: "Roboto Slab", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  margin: 9rem 0rem 0 4rem;
+
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  .aqua-text {
+    color: #0557b5;
+  }
+
+  .second-line {
+    color: #757576;
+  }
+
+  @media screen and (device-width: 1280px) and (device-height: 800px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+
+  @media screen and (max-width: 1212px) {
+    h1 {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 1169px) {
+    width: 100%;
+    margin: 0;
+    margin-top: 7rem;
+    align-items: center;
+
+    h1 {
+      text-align: start;
+      font-size: 2.9rem;
+    }
+  }
+
+  @media screen and (device-width: 1024px) and (device-height: 600px) {
+    margin-top: 4rem;
+  }
+
+  @media screen and (device-width: 912px) and (device-height: 1368px) and (-webkit-device-pixel-ratio: 2) {
+    margin-top: 19rem;
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  @media screen and ((device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2)),
+    ((device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)) {
+    margin-top: 12rem;
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+
+  @media screen and (max-width: 586px) {
+    margin: 4rem 2rem 0 0rem;
+    flex-shrink: 0 !important;
+    h1 {
+      font-size: 2.3rem;
+    }
+  }
+
+  @media screen and (device-width: 540px) and (device-height: 720px) {
+    width: 90%;
+    margin: 4rem 2rem 0 2rem;
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media screen and (max-width: 414px) {
+    width: 85%;
+    margin: 4rem 2rem 0 2.9rem;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 394px) {
+    margin: 4rem 2rem 0 2.3rem;
+    h1 {
+      font-size: 2.8rem;
+    }
+  }
+
+  @media screen and (max-width: 390px) {
+    margin: 4rem 2rem 0 2.5rem;
+  }
+
+  @media screen and (max-width: 360px) {
+    width: 80%;
+    margin: 4rem 2rem 0 2.7rem;
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    width: 85%;
+    margin: 4rem 2rem 0 2.2rem;
+    h1 {
+      font-size: 2.4rem;
+    }
+  }
+}

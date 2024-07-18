@@ -1,0 +1,166 @@
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .contact-heading {
+    margin-top: 5rem;
+    color: #fff;
+  }
+  .form-class {
+    .contact-details {
+      text-align: start;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+
+    .contact-form {
+      display: flex;
+      justify-content: center;
+
+      .form-column {
+        .basic-textform {
+          input {
+            height: 2.8rem;
+            width: 30rem;
+            font-family: Roboto Slab, sans-serif;
+            color: white;
+            font-size: 1rem;
+            margin: 1rem 1rem 0 0;
+            background-color: #303236;
+            padding-left: 8px;
+            outline: none;
+            border: none;
+          }
+        }
+        .multiline {
+          textarea {
+            height: 10.2rem;
+            width: 30rem;
+            min-width: 150px;
+            font-family: Roboto Slab, sans-serif;
+            color: white;
+            font-size: 1rem;
+            margin: 1rem 0 0 0rem;
+            background-color: #303236;
+            padding-left: 8px;
+            padding-top: 7px;
+            outline: none;
+            border: none;
+            resize: none;
+          }
+        }
+      }
+    }
+    .frame {
+      width: 90%;
+      margin: 40px auto;
+      text-align: center;
+    }
+    .contact-button {
+      display: flex;
+      justify-content: flex-end;
+      button {
+        font-size: inherit;
+
+        outline: none;
+        margin: 3rem 0 2rem 0;
+      }
+    }
+    .custom-btn {
+      width: 130px;
+      height: 40px;
+      padding: 10px 25px;
+      border: 2px solid #1b1c1e;
+      font-family: "Roboto Slab", sans-serif;
+      font-weight: 500;
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+    }
+    .btn-16 {
+      background: #05b59e;
+      color: #fff;
+      z-index: 1;
+      line-height: 1;
+    }
+    .btn-16:after {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 100%;
+      top: 0;
+      left: 0;
+      direction: rtl;
+      z-index: -1;
+      background: #e0e5ec;
+      transition: all 0.3s ease;
+    }
+    .btn-16:hover {
+      color: #000;
+    }
+    .btn-16:hover:after {
+      left: auto;
+      right: 0;
+      width: 100%;
+    }
+    .btn-16:active {
+      top: 2px;
+    }
+  }
+
+  @media screen and (max-width: 1054px) {
+    .form-class {
+      .contact-form {
+        flex-direction: column;
+        .form-column {
+          .basic-textform input {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 560px) {
+    .form-class {
+      width: 80%;
+      .contact-form {
+        align-items: center;
+        .form-column {
+          width: 100%;
+          .basic-textform input,
+          .multiline textarea {
+            width: 97%;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 414px) {
+    .contact-form-container {
+      .Toastify__toast-container {
+        z-index: 99;
+        position: fixed;
+        top: 1rem;
+        left: auto;
+        right: 1rem;
+        padding: 8px;
+        width: auto;
+        box-sizing: border-box;
+      }
+
+      .Toastify__toast {
+        margin-bottom: 8px;
+        border-radius: 4px;
+        font-family: Roboto Slab, sans-serif;
+        font-size: 14px;
+        line-height: 1.4;
+        max-width: 240px;
+        white-space: nowrap;
+      }
+    }
+  }
+}
