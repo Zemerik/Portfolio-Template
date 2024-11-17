@@ -6,7 +6,7 @@
 
 <br>
 
-<img src = "https://skillicons.dev/icons?i=svelte,javascript,typescript,scss,css,html,vite,nodejs,vscode,netlify,vercel,discord,github&perline=25">
+<img src = "https://skillicons.dev/icons?i=svelte,javascript,typescript,scss,css,html,vite,nodejs,pnpm,vscode,netlify,vercel,discord,github&perline=25">
 
 </p>
 
@@ -21,6 +21,12 @@
 ## ❗About:
 
 Welcome to the Portfolio Template, your ultimate tool for crafting a professional and personalized portfolio that showcases your unique skills and achievements. This template is designed to empower users with a sleek, modern, and user-friendly interface, ensuring that your portfolio not only impresses but also effectively communicates your story and capabilities.
+
+<div align = "center">
+
+[![Easy Portfolio Template](https://ytcards.demolab.com/?id=l-ePe_MJU-s&title=Easy+Portfolio+Template&lang=en&timestamp=1731829549&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=184 "Easy Portfolio Template")](https://www.youtube.com/watch?v=l-ePe_MJU-s)
+
+</div>
 
 ## ⭐ Key Features:
 
@@ -64,6 +70,8 @@ git clone https://github.com/Zemerik/Portfolio-Template.git && cd Portfolio-Temp
   Main Sections
 </summary>
 
+<br>
+
 |                     Image                 |      Section    |                                 File                        |       Lines     |
 | ----------------------------------------- | --------------  | ----------------------------------------------------------- | --------------  |
 | ![Nabar](public/navbar.png)               | Navbar          | `src/routes/Head.svelte`                                    | **30 - 47**     |
@@ -77,20 +85,19 @@ git clone https://github.com/Zemerik/Portfolio-Template.git && cd Portfolio-Temp
 
 </details>
 
-<br>
-
 <details>
 
 <summary>
   Spotify Status
 </summary>
 
+<br>
+
 1. Join the [Lanyard](https://github.com/Phineas/lanyard) Discord Server, 
       - https://discord.com/invite/UrXF2cfJ7F
 2. Head over to `src/routes/spotify.ts` and locate line **62**. 
 3. Remove *1018816958587748383* and paste **YOUR DISCORD ACCOUNT ID** after `/users/`.
 
-> [!Important]
 > Thanks to [Lanyard](https://lanyard.eggsy.xyz/) for making this possiblle!
 
 </details>
@@ -102,7 +109,7 @@ git clone https://github.com/Zemerik/Portfolio-Template.git && cd Portfolio-Temp
 > Install required Dependencies
 
 ```bash
-npm i pnpm
+npm i pnpm --force
 ```
 
 ```bash
