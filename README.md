@@ -129,6 +129,10 @@ pnpm run dev
 
 ## 😎 Happy Coding!!
 
+## 🪪 Credits
+
+[Posandu](https://github.com/Posandu)
+
 ## 💁 Support:
 
 For any kind of support or inforrmation, you are free to join our **Discord Server**,
