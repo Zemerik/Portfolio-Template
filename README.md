@@ -18,6 +18,8 @@
   <img src = "public/screenshot_laptop.png" alt = "Laptop Screenshot" />
 </p>
 
+![wakatime](https://wakatime.com/badge/user/9860690e-8928-4746-844c-c2924f121f2d/project/5de3fb2c-df6d-40a8-95d9-15ac29c773f2.svg)
+
 ## ❗About:
 
 Welcome to the Portfolio Template, your ultimate tool for crafting a professional and personalized portfolio that showcases your unique skills and achievements. This template is designed to empower users with a sleek, modern, and user-friendly interface, ensuring that your portfolio not only impresses but also effectively communicates your story and capabilities.
