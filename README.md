@@ -24,6 +24,8 @@
 
 Welcome to the Portfolio Template, your ultimate tool for crafting a professional and personalized portfolio that showcases your unique skills and achievements. This template is designed to empower users with a sleek, modern, and user-friendly interface, ensuring that your portfolio not only impresses but also effectively communicates your story and capabilities.
 
+- Feel free to read my [Blog](https://zemerik.hashnode.dev/building-your-portfolio-in-2025) about this Project on Hashnode
+
 <div align = "center">
 
 [![Easy Portfolio Template](https://ytcards.demolab.com/?id=l-ePe_MJU-s&title=Easy+Portfolio+Template&lang=en&timestamp=1731829549&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=184 "Easy Portfolio Template")](https://www.youtube.com/watch?v=l-ePe_MJU-s)
@@ -128,12 +130,7 @@ pnpm run dev
 
 - After you have made your changes, you can host your Portfolio on [Vercel](https://vercel.com) or on [Netlify](https://www.netlify.com)
 
-
 ## 😎 Happy Coding!!
-
-## 🪪 Credits
-
-[Posandu](https://github.com/Posandu)
 
 ## 💁 Support:
 
